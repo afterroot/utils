@@ -46,7 +46,7 @@ dependencies {
     implementation("androidx.core:core-ktx:1.15.0")
     implementation("androidx.fragment:fragment-ktx:1.8.6")
     implementation("androidx.preference:preference-ktx:1.2.1")
-    implementation("androidx.transition:transition:1.5.1")
+    implementation("androidx.transition:transition:1.6.0")
     implementation("com.afollestad.material-dialogs:core:3.3.0")
     implementation("com.google.android.material:material:1.12.0")
     implementation("com.google.code.gson:gson:2.12.1")
