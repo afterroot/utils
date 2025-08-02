@@ -1,0 +1,40 @@
+[versions]
+agp = "8.12.0"
+appcompat = "1.7.1"
+constraintLayout = "2.2.1"
+core = "3.3.0"
+coreKtx = "1.16.0"
+fragmentKtx = "1.8.8"
+googleMaterial = "1.12.0"
+gson = "2.13.1"
+kotlin = "2.2.0"
+preference = "1.2.1"
+
+compileSdk = "36"
+minSdk = "23"
+targetSdk = "36"
+major = "0"
+minor = "1"
+transition = "1.6.0"
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
+[libraries]
+androidx-transition = { module = "androidx.transition:transition", version.ref = "transition" }
+afollestad-materialdialogs-core = { module = "com.afollestad.material-dialogs:core", version.ref = "core" }
+timber = { module = "com.jakewharton.timber:timber", version = "5.0.1" }
+
+kotlin-stdLib = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "kotlin" }
+
+androidx-appCompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidx-constraintLayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintLayout" }
+androidx-core = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+androidx-fragment = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
+androidx-preference = { module = "androidx.preference:preference-ktx", version.ref = "preference" }
+
+google-material = { module = "com.google.android.material:material", version.ref = "googleMaterial" }
+google-gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
