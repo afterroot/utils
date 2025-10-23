@@ -7,7 +7,7 @@ coreKtx = "1.16.0"
 fragmentKtx = "1.8.8"
 googleMaterial = "1.12.0"
 gson = "2.13.1"
-kotlin = "2.2.0"
+kotlin = "2.2.21"
 preference = "1.2.1"
 
 compileSdk = "36"
