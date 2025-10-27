@@ -1,3 +1,4 @@
 # AfterROOT Utils
 
-[![build](https://github.com/afterroot/utils/actions/workflows/android.yml/badge.svg)](https://github.com/afterroot/utils/actions/workflows/android.yml)
+>## Archived Repository Notice
+>This repository has been archived and merged with the private repo [AfterROOT ARDS](https://github.com/afterroot/ards) on 28 Sep 2025.
